@@ -24,6 +24,7 @@ to turtleMoveFour
   pd
   setxy (min-pxcor + random world-height / 2) (min-pycor + random world-height / 2)
 end
+;WRITE ABOVE THIS LINE IF USING A TEXT EDITOR!!!1!
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
