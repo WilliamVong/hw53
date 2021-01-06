@@ -15,12 +15,12 @@ end
 
 to turtleMoveThree
   pu                                                                     ; to avoid issues with pen still being down when calling this function
-  setxy (random world-height / 2) (random world-height / 2)              ; this calculates the height of the world, divides it by two, and then puts the turtle's coordinates at a random point between the max and 0 using the random function
+  setxy random-float max-pxcor random max-pycor             ; this calculates the height of the world, divides it by two, and then puts the turtle's coordinates at a random point between the max and 0 using the random function
 end
 
 to turtleMoveFour
   pd
-  setxy (min-pxcor + random world-height / 2) (min-pycor + random world-height / 2)
+  setxy random-float min-pxcor random min-pycor
 end
 ;HEY! IF YOU ARE EDITING THIS CODE IN A TEXT EDITOR, PLEASE WRITE ABOVE THIS LINE!!
 @#$#@#$#@
