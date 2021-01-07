@@ -170,20 +170,23 @@ NIL
 
 @#$#@#$#@
 ## WHAT IS IT?
-
-A project that demonstrates the abilities to move turtles around the world (aka a homework)
+The model creates 100 turtles at the center of the world. The user is given 4 buttons that command the turtles to move randomly with their pens either lowered or raised. turtleMoveOne moves all the turtles randomly across the world. turtleMoveTwo does the same thing but the turtles have their pens down. turtleMoveThree moves all the turtles randomly within the first quadrant. turtleMoveFour does the same thing but within the third quadrant with the turtles' pens down.
 
 ## HOW IT WORKS
 
-We use the setxy command along with the random function to move the turtles to wherever they go.
+The model uses random-float to generate random floating-point numbers that define how much to move forward or right turn the turtle. The fd function moves turtles forward by the specified amount. The facexy function makes the turtles point toward a specific area on the world. The rt function turns the turtles by a specified number of degrees. 
 
 ## HOW TO USE IT
 
-You press setup, and then you press the four "turtleMove" functions to move them in different ways.
+(how to use the model, including a description of each of the items in the Interface tab)
+Start with using the setup button once to clear the world and create 100 turtles at the center of the world. This is also the button used to reset the world after using one of the other 4 buttons. turtleMoveOne randomly moves the turtles across the world; turtleMoveTwo does that but with the turtles' pens down; turtleMoveThree does what turtleMoveOne does but only in the first quadrant of the world; turtlemoveFour does what turtleMoveThree does but in the third quadrant and with the turtles' pens down.
 
 ## CREDITS AND REFERENCES
 
-The Netlogo Dictionary, Atom
+Pair Pro-gramming (William Vongphanith, Keith Yu)
+IntroCs pd 6, sec 10
+HW 53 - Random Explorations/Four Loco-Motion
+2021-01-05
 @#$#@#$#@
 default
 true
